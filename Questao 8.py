@@ -4,7 +4,7 @@ media = 0
 soma = 0
 
 while True:
-    notas = float(input("Digite o %s elemento:"%(i)))
+    notas = float(input("Digite a %s nota:"%(i)))
     if notas == -1:
         break
     soma+=notas
